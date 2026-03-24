@@ -1,0 +1,16 @@
+export const DEFAULT_CATEGORIES = [
+  { id: "food", name: "Food & Drink", type: "expense", keywords: ["mcdonald","kfc","pizza","starbucks","grab food","gofood","shopee food","warteg","makan","restoran","cafe","coffee","bakery","soto","nasi","mie","ayam","batagor","warung","jumpstart","teh gopek","cuci wangi"], isDefault: true },
+  { id: "transport", name: "Transport", type: "expense", keywords: ["grab","gojek","ojek","bensin","pertamina","parkir","tol","busway","transjakarta","kereta","kai","taxi","uber","spbu"], isDefault: true },
+  { id: "shopping", name: "Shopping", type: "expense", keywords: ["shopee","tokopedia","lazada","blibli","bukalapak","zalora","h&m","zara","uniqlo","alfamart","indomaret","hypermart","carrefour","yogya","grj"], isDefault: true },
+  { id: "health", name: "Health", type: "expense", keywords: ["apotek","kimia farma","guardian","klinik","rumah sakit","rs ","dokter","obat","laboratorium","puskesmas"], isDefault: true },
+  { id: "utilities", name: "Utilities", type: "expense", keywords: ["pln","pdam","telkom","indihome","xl","telkomsel","smartfren","bpjs","iuran","spaylater"], isDefault: true },
+  { id: "entertainment", name: "Entertainment", type: "expense", keywords: ["netflix","spotify","youtube","steam","games","bioskop","cgv","cinema","disney","vidio","tix id","tix"], isDefault: true },
+  { id: "education", name: "Education", type: "expense", keywords: ["udemy","coursera","kampus","universitas","sekolah","kursus","les","bimbel","buku"], isDefault: true },
+  { id: "gopay", name: "GoPay / E-Wallet", type: "both", keywords: ["gopay","gopayid","interchange","70077/gopay"], isDefault: true },
+  { id: "transfer", name: "Transfer", type: "both", keywords: ["trsf e-banking","trsf","pybca"], isDefault: true },
+  { id: "atm", name: "ATM / Cash", type: "expense", keywords: ["tarikan atm","tarik tunai"], isDefault: true },
+  { id: "deposit", name: "Deposit / CDM", type: "income", keywords: ["setoran","cdm","setor tunai"], isDefault: true },
+  { id: "salary", name: "Salary / Income", type: "income", keywords: ["gaji","salary","payroll","thr","bonus","angpao"], isDefault: true },
+  { id: "bill", name: "Bills / Credit Card", type: "expense", keywords: ["kartu kredit","bca card","cicilan","angsuran"], isDefault: true },
+  { id: "etc", name: "Etc", type: "both", keywords: [], isDefault: true },
+];
